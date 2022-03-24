@@ -3,3 +3,8 @@ esponjas
 fideos arroz
 latas
 coca
+  
+lala 
+burbuja
+bellota
+poo
