@@ -1,0 +1,38 @@
+p{
+    color: rgb(78, 30, 210);
+    font-size: 30px;
+    line-height: 20px;
+}
+
+h1{
+    color: magenta;
+    background-color: darkgrey;
+}
+
+.destacado{
+    color: lightcoral;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+#violeta{
+    width: 300px;
+    height: 400px;
+    background-color: lightpink;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#verde{
+    width: 300;
+    height: 300;
+    padding: 40px;
+    background-color: lightgreen;
+    box-sizing: border-box;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    padding: 10px;
+}

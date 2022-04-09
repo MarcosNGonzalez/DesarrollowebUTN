@@ -1,0 +1,37 @@
+#verde{
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    border: 3px solid black;
+}
+#azul{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(8, 35, 207);
+    border: 3px solid black;
+}
+#rojo{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(229, 13, 13);
+    border: 3px solid black;
+}
+#violeta{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(212, 10, 188);
+    border: 3px solid black;
+}
+
+
+
+h1{
+    color: red;
+    background-color: black;
+    width: 30%;
+}
+
+h2{
+    width: 20%;
+    border-bottom: 2px solid black;
+}
