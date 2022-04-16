@@ -1,0 +1,77 @@
+#verde{
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin-top: 30px;
+}
+#azul{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(8, 35, 207);
+    border: 3px solid black;
+}
+#rojo{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(229, 13, 13);
+    border: 3px solid black;
+}
+#violeta{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(212, 10, 188);
+    border: 3px solid black;
+}
+
+
+
+h1{
+    color: red;
+    background-color: black;
+    width: 30%;
+}
+
+h2{
+    width: 20%;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+#caja{
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,71,1) 10%, rgba(0,212,255,1) 100%);
+color: white;
+padding: 30px;
+box-sizing: border-box;
+border-radius: 20px;
+border: 1px solid blue;
+box-shadow: 20px 10px 15px black;
+
+column-count: 3;
+column-gap: 20px;
+column-rule: 2px solid black;
+}
+
+#te p{
+    font-size: large;
+
+        font-family: cursive;
+    
+}
+
+
+
+
+
+
+
+
+
