@@ -309,14 +309,16 @@ h2{
 }
 
 .formulario input[type="submit"]{
-background: rgb(2, 88, 46);
+ background: rgb(2, 88, 46); 
 box-shadow: rgb(8, 28, 1);
 color: aliceblue;
 font-size: 18px;
 padding: 8px 18px;
-width: 25%;
+width: 18%;
 left: 5px;
 cursor: pointer;
+position: relative;
+left: 145px;
 
 
 }
