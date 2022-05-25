@@ -1,0 +1,335 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+
+header {
+    background-color: blue;
+    padding: 16px 0;
+    
+}
+
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+
+}
+
+
+nav {
+    background-color: lightblue;
+    margin-bottom: 20px;
+
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+
+
+}
+
+
+nav ul li a:hover {
+    background-color: black;
+
+}
+
+nav ul li a.activo {
+    background-color: blueviolet;
+}
+
+
+footer {
+    background-color: aliceblue;
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+
+
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+    
+
+}
+
+h2 {
+    color: lightseagreen;
+    font-weight: 400;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.testimonios {
+    width: 25%;
+    /* background-color: rgb(112, 240, 170); */
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: white;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    /* background-color: yellowgreen; */
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 12px;
+    text-align: start;
+    /* background-color: darksalmon; */
+    display: block;
+    margin: 12px 0;
+}
+
+/* de aca para arriba son los estilos del home */
+
+
+
+/* de aca para abajo son los estilos del nosotros */
+
+
+.historia p{
+    font-size: 16px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 50%;
+    box-shadow: 0 0 5px gainsboro;
+ 
+
+}
+
+.persona h5,
+.persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+.persona h5{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.persona p{
+    color: #666;
+    font-size: 15px;
+}
+
+
+/* de aca para anajo lños estilos de servicios */
+
+
+
+
+.servicio{
+
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.servicio .info h4{
+    color: darkslategrey;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.servicio .info p{
+    font-size: 18px;
+}
+
+.servicio img{
+    border-radius: 15px;
+    display: block;
+    max-width: 250px;
+
+}
+
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+/* de aca para abajo los estilos de la galeria */
+
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: flex-start; 
+}
+h2{
+    color: darkslategrey;
+    font-weight: 500;
+    font-style: italic;
+    
+    padding-right: 10px;
+}
+
+
+.galeria img{
+    width: 20%;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-right: 2%;
+}
+
+/* de aca para abajo los estilos de Contactos */
+
+
+.contactos{
+ display: flex;
+    gap: 30px;
+}
+
+.contactos div{
+
+    width: 100%;
+}
+
+.datos p{
+    font-size: 18px;
+
+}
+
+
+.datos ul li{
+
+    font-size: 16px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.formulario p:nth-child(4){
+    align-items: flex-start; 
+}
+
+.formulario p input,
+.formulario p textarea{
+    /* resize: none;
+    height: 200px; */
+    width: 35%;
+    font-size: 18px;
+    border-radius: 10px;
+
+
+
+}
+
+.formulario input[type="submit"]{
+background: rgb(2, 88, 46);
+box-shadow: rgb(8, 28, 1);
+color: aliceblue;
+font-size: 18px;
+padding: 8px 18px;
+width: 25%;
+left: 5px;
+cursor: pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
