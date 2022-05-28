@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de JS 2</title>
+</head>
+
+<body>
+
+
+    <script>
+        var conjuntonumeros = ["numero 1", "numero 2", "numero 3", "numero 4", "numero 5", "numero 6", "numero 7", "numero 8", "numero 9", "numero 10"];
+
+        var primero = conjuntonumeros[0];
+        var x = 1;
+        var cuantos = 10;
+        var suma = 0;
+        var valor = 0;
+        var i = 0;
+        var l = 0;
+        var z = 0;
+        var x = 1;
+        var nummayor = 0;
+
+        // document.write(conjuntonumeros[3]);
+
+        // document.write("<br />"); 
+        // document.write("<br />");
+
+        document.write("Listado del array cargado: ");
+
+        document.write("<br />");
+        document.write("<br />");
+
+        while (x <= cuantos) {
+
+            valor = prompt('Ingrese el valor ' + x + ' de ' + cuantos + ':', '');
+            valor = parseInt(valor);
+            conjuntonumeros[i] = valor;
+
+            x = x + 1;
+            i = i + 1;
+        }
+
+        for (f = 1; f <= 10; f++) {
+
+            document.write(conjuntonumeros[z]);
+            document.write("<br />");
+            z = z + 1;
+        }
+
+
+        for (f = 1; f <= 10; f++) {
+
+            document.write("<br />");
+
+            if (nummayor < conjuntonumeros[l]) {
+                nummayor = conjuntonumeros[l];
+            }
+
+            z = z + 1;
+            l = l + 1;
+
+        }
+
+        document.write("El numero mas alto es ");
+        document.write(nummayor);
+
+    </script>
+
+</body>
+
+</html>

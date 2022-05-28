@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de JS 1</title>
+</head>
+
+<body>
+
+    <script>
+
+        var distancia;
+
+        distancia = prompt('Ingrese la distancia en metros del recorrido:', '');
+
+
+        distancia = parseInt(distancia);
+
+        if (0 < distancia & distancia < 1000) {
+            document.write("La distancia a recorrer es ", + distancia, "mts,", " esta es mayor a 0mts y menor a 1000mts");
+            document.write("<br />");
+            document.write("<br />");
+            document.write('El recorrido es a pie');
+        }
+        else {
+            if (999 < distancia & distancia < 10000) {
+                document.write("La distancia a recorrer es ", + distancia, "mts,", " esta es mayor a 1000mts y menor a 10000mts");
+                document.write("<br />");
+                document.write("<br />");
+                document.write('El recorrido es en bicicleta');
+            }
+            else {
+                if (9999 < distancia & distancia < 30000) {
+                    document.write("La distancia a recorrer es ", + distancia, "mts,", " esta es mayor a 10000mts y menor a 30000mts");
+                    document.write("<br />");
+                    document.write("<br />");
+                    document.write('El recorrido es en colectivo');
+                }
+                else {
+                    if (29999 < distancia & distancia < 100000) {
+                        document.write("La distancia a recorrer es ", + distancia, "mts,", " esta es mayor a 30000mts y menor a 100000mts");
+                        document.write("<br />");
+                        document.write("<br />");
+                        document.write('El recorrido es en auto');
+                    }
+
+                    else {
+                        document.write("La distancia a recorrer es ", + distancia, "mts,", " esta es mayor a 100000mts, ");
+                        document.write("<br />");
+                        document.write("<br />");
+                        document.write('El recorrido es en avion');
+                    }
+
+                }
+            }
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
