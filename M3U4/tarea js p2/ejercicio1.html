@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+<body>
+    <div class="todo">
+        <h1>Botones para cambiar el color de fondo</h1>
+        <p>
+            <button class="boton alternar1" id="rojo" style="background-color: red; height: 120px;">Cambia mi estilo a rojo</button>
+            &nbsp;
+            <button class="boton alternar2" id="amarillo" style="background-color: yellow; height: 120px;">Cambia mi estilo a amarillo</button>
+            &nbsp;
+            <button class="boton alternar3" id="verde" style="background-color: green; height: 120px;">Cambia mi estilo a verde</button>
+            &nbsp;
+            <button class="boton" id="reset" style="height: 120px; width: 120px ">Reset</button>
+
+
+        </p>
+       
+
+    </div>
+
+    <script>
+
+        var cuadrado = document.getElementsByClassName('todo')[0];
+        var rojo = document.getElementById('rojo');
+        var amarillo = document.getElementById('amarillo');
+        var verde = document.getElementById('verde');
+        
+        rojo.addEventListener('click', function() {
+            cuadrado.classList.add('rojo');
+        });
+
+        amarillo.addEventListener('click', function () {
+            cuadrado.classList.add('amarillo');
+        });
+
+        verde.addEventListener('click', function () {
+            cuadrado.classList.add('verde');
+        });
+        reset.addEventListener('click', function () {
+            cuadrado.classList.remove('rojo', 'amarillo', 'verde');
+        });
+    </script>
+
+</body>
+
+</html>

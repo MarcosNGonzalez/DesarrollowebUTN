@@ -1,0 +1,23 @@
+.todo {
+    width: 5000px;
+    height: 5000px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+ .todo.rojo {
+    background: red;
+} 
+
+.todo.amarillo{
+    background-color: yellow;
+}
+
+.todo.verde{
+    background-color: green;
+}
+
+
+
+
+

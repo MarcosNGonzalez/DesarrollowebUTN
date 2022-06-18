@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="botonera">
+
+        <div class="boton rojo"   onclick="cambioFondo('red')"></div>
+    
+        <div class="boton amarillo"   onclick="cambioFondo('yellow')"></div>
+
+        <div class="boton verde"   onclick="cambioFondo('green')"></div>
+
+        <div class="boton blanco"   onclick="cambioFondo('white')"></div>
+
+    </div>
+
+
+    <style>
+
+        .botonera {
+            display: flex;
+
+        }
+
+        .boton {
+        
+            cursor: pointer;
+            height: 150px;
+            width: 150px;
+        
+        }
+
+        .rojo {
+            background-color: red;
+        }
+
+        .amarillo {
+            background-color: yellow;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        .blanco {
+            background-color: white;
+        }
+
+    </style>
+
+
+<script>
+
+    function cambioFondo(color) {
+        document.querySelector ('body').style.background = color;
+    }
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
