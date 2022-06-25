@@ -1,3 +1,7 @@
+import '../../styles/layout.css';
+
+
+
 const Header = (props) => {
     return (
 

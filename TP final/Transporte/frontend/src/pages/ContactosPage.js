@@ -1,3 +1,13 @@
+import '../styles/ContactosPage.css';
+
+
+
+
+
+
+
+
+
 const ContactosPage = (props) => {
     return (
 

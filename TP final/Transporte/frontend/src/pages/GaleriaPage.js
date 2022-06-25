@@ -1,3 +1,13 @@
+import '../styles/GaleriaPage.css';
+
+
+
+
+
+
+
+
+
 const GaleriaPage = (props) => {
     return (
 
